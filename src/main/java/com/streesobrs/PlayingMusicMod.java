@@ -1,22 +1,36 @@
 package com.streesobrs;
 
+import com.streesobrs.mixin.ModItems;
+import com.streesobrs.mixin.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.Identifier;
 
 public class PlayingMusicMod implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
-    public static final Logger LOGGER = LoggerFactory.getLogger("playing-music-mod");
+	//设置mod id
+	public static final String MOD_ID = "playing-music-mod";
+	// 创建创造物品栏
+
+	//测试用的物品栏
+	public static final ItemGroup TAB_CREATIVE_MUSIC = FabricItemGroupBuilder.build(
+			new Identifier(MOD_ID, "tab_creative_music"),
+			() -> new ItemStack(ModItems.MUSIC_DISC_CREATIVE_MUSIC)
+	);
+	//原神 唱片物品栏
+	public static final ItemGroup TAB_YUANSHEN_MUSIC = FabricItemGroupBuilder.build(
+			new Identifier(MOD_ID, "tab_yuanshen_music"),
+			() -> new ItemStack(ModItems.MUSIC_DISC_YUANSHEN_MUSIC)
+	);
+	//FallGuys 唱片物品栏
+	public static final ItemGroup TAB_FALLGUYS_MUSIC = FabricItemGroupBuilder.build(
+			new Identifier(MOD_ID, "tab_fallguys_music"),
+			() -> new ItemStack(ModItems.MUSIC_DISC_FALLGUYS_MUSIC)
+	);
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		ModSounds.registerSounds();
 	}
 }
