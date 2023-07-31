@@ -1,13 +1,13 @@
-package com.streesobrs.mixin;
-
+package com.streesobrs.mixins;
 
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.Mixin;
 
-import net.minecraft.recipe.RepairItemRecipe;
-import net.minecraft.item.ItemStack;
+import net.minecraft.world.item.crafting.RepairItemRecipe;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.inventory.CraftingContainer;
 import net.minecraft.core.RegistryAccess;
 
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import com.google.common.collect.Lists;
 
 @Mixin(RepairItemRecipe.class)
-public abstract class PlayingMusicModModRepairItemRecipeMixin {
+public abstract class PlayingMusicModRepairItemRecipeMixin {
     @Inject(method = "assemble", at = @At("HEAD"), cancellable = true)
     public void assemble(CraftingContainer craftingContainer, RegistryAccess registryAccess, CallbackInfoReturnable<ItemStack> cir) {
         ItemStack itemStack3;

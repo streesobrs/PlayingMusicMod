@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.streesobrs.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PlayingMusicModRepairItemRecipeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

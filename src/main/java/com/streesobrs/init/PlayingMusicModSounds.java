@@ -1,7 +1,7 @@
 package com.streesobrs.init;
 
-import net.minecraft.sound.SoundEvent;
-import net.minecraft.resource.ResourceLocation;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
 

@@ -1,12 +1,14 @@
 package com.streesobrs.item;
 
-import net.minecraft.item.Item;
-
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.world.item.RecordItem;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Item;
+
+
 
 import com.streesobrs.init.PlayingMusicModTabs;
 import com.streesobrs.init.PlayingMusicModSounds;
-import net.minecraft.util.Rarity;
 
 public class NeverGonnaGiveYouUpItem extends RecordItem {
     public NeverGonnaGiveYouUpItem() {
