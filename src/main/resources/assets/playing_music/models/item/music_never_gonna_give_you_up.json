@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "playing-music-mod:item/music_disc"
+    "layer0": "playing_music:item/music_disc"
   }
 }

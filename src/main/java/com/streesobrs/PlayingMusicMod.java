@@ -12,11 +12,11 @@ import com.streesobrs.init.PlayingMusicModItems;
 public class PlayingMusicMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
 	//设置mod id
-	public static final String MODID = "playing_music_mod";
+	public static final String MODID = "playing_music";
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Initializing PlayingMusicModMod");
+		LOGGER.info("Initializing PlayingMusicMod");
 
 		PlayingMusicModTabs.load();
 

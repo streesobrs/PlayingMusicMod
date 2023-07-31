@@ -5,10 +5,10 @@ plugins {
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
-archivesBaseName = 'modid'
-version = '1.0.0'
+archivesBaseName = 'PlayingMusicMod'
+version = '0.1.0-beta'
 group = 'com.yourname.modid'
-actualmodid = 'playing_music_mod'
+actualmodid = 'playing_music'
 
 loom {
 	mixin {

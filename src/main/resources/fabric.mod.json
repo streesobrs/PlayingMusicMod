@@ -12,7 +12,7 @@
 		"sources": ""
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/playing_music_mod/icon.png",
+	"icon": "assets/playing_music/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

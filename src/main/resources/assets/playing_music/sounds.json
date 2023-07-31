@@ -1,0 +1,11 @@
+{
+  "music_never_gonna_give_you_up": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "playing_music:music_never_gonna_give_you_up",
+        "stream": true
+      }
+    ]
+  }
+}
