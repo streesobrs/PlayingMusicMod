@@ -7,5 +7,14 @@
         "stream": true
       }
     ]
+  },
+  "music_a_moment_apart": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "playing_music:music_a_moment_apart",
+        "stream": true
+      }
+    ]
   }
 }

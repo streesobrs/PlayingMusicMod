@@ -1,8 +1,11 @@
 {
   "subtitles.music_never_gonna_give_you_up": "",
 
-  "item_group.playing_music.genshin_music": "你干嘛 Music",
+  "item_group.playing_music.genshin_music": "原神 音乐",
+  "item_group.playing_music.forza_horizon_music": "地平线 音乐",
 
   "item.playing_music.music_never_gonna_give_you_up": "Never Gonna Give You Up",
-  "item.playing_music.music_never_gonna_give_you_up.desc": "Rick Astley - Never gonna give you up"
+  "item.playing_music.music_never_gonna_give_you_up.desc": "Rick Astley - Never gonna give you up",
+  "item.playing_music.music_a_moment_apart": "A Moment Apart",
+  "item.playing_music.music_a_moment_apart.desc": "ODESZA - A Moment Apart"
 }
