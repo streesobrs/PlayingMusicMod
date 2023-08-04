@@ -16,5 +16,14 @@
         "stream": true
       }
     ]
+  },
+  "music_everybody_falls": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "playing_music:music_everybody_falls",
+        "stream": true
+      }
+    ]
   }
 }
