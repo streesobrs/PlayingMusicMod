@@ -1,9 +1,21 @@
 {
   "subtitles.music_never_gonna_give_you_up": "",
 
-  "item_group.playing_music.genshin_music": "Genshin Music records",
+  "item_group.playing_music.more_music": "More Music records",
   "item.playing_music.music_never_gonna_give_you_up": "Never Gonna Give You Up",
   "item.playing_music.music_never_gonna_give_you_up.desc": "Rick Astley - Never gonna give you up",
+  "item.playing_music.music_despacito": "Despacito",
+  "item.playing_music.music_despacito.desc": "Luis Fonsi / Daddy Yankee - Despacito",
+  "item.playing_music.music_xiong_ying": "雄鹰",
+  "item.playing_music.music_xiong_ying.desc": "Kindergarten killer / XL - 雄鹰",
+
+  "item_group.playing_music.genshin_music": "Genshin Music records",
+  "item.playing_music.music_beneath_the_light_of_jadeite": "Beneath the Light of Jadeite 玉扉绕尘歌",
+  "item.playing_music.music_beneath_the_light_of_jadeite.desc": "HOYO-MiX - Beneath the Light of Jadeite 玉扉绕尘歌",
+  "item.playing_music.music_fleeting_colors_in_flight": "Fleeting Colors in Flight 飞彩镌流年",
+  "item.playing_music.music_fleeting_colors_in_flight.desc": "HOYO-MiX - Fleeting Colors in Flight 飞彩镌流年",
+  "item.playing_music.music_the_exquisite_night_chimes": "The Exquisite Night Chimes 磬弦奏华夜",
+  "item.playing_music.music_the_exquisite_night_chimes.desc": "HOYO-MiX - The Exquisite Night Chimes 磬弦奏华夜",
 
   "item_group.playing_music.forza_horizon_music": "Forza Horizon Music records",
   "item.playing_music.music_a_moment_apart": "A Moment Apart",

@@ -8,9 +8,9 @@ import net.minecraft.world.item.Item;
 import com.streesobrs.init.PlayingMusicModTabs;
 import com.streesobrs.init.PlayingMusicModSounds;
 
-public class MusicNeverGonnaGiveYouUpItem extends RecordItem {
-    public MusicNeverGonnaGiveYouUpItem() {
-        super(0, PlayingMusicModSounds.MUSIC_NEVER_GONNA_GIVE_YOU_UP, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 240);
+public class MusicDespacitoItem extends RecordItem {
+    public MusicDespacitoItem() {
+        super(0, PlayingMusicModSounds.MUSIC_DESPACITO, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 240);
         ItemGroupEvents.modifyEntriesEvent(PlayingMusicModTabs.TAB_MORE_MUSIC).register(content -> content.accept(this));
     }
 }

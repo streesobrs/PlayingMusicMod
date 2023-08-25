@@ -14,6 +14,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 
 public class PlayingMusicModTabs {
+    //创造其他栏
+    public static ResourceKey<CreativeModeTab> TAB_MORE_MUSIC = ResourceKey.create(Registries.CREATIVE_MODE_TAB, new ResourceLocation(PlayingMusicMod.MODID, "more_music"));
     //创建原神栏
     public static ResourceKey<CreativeModeTab> TAB_GENSHIN_MUSIC = ResourceKey.create(Registries.CREATIVE_MODE_TAB, new ResourceLocation(PlayingMusicMod.MODID, "genshin_music"));
     //创建地平线栏
@@ -26,6 +28,9 @@ public class PlayingMusicModTabs {
     public static ResourceKey<CreativeModeTab> TAB_LTC_MUSIC = ResourceKey.create(Registries.CREATIVE_MODE_TAB,new ResourceLocation(PlayingMusicMod.MODID,"ltc_music"));
 
     public static void load() {
+        //其他音乐栏
+        Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_MORE_MUSIC,
+                FabricItemGroup.builder().title(Component.translatable("item_group." + PlayingMusicMod.MODID + ".more_music")).icon(() -> new ItemStack(Items.MUSIC_DISC_13)).build());
         //原神音乐栏
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_GENSHIN_MUSIC,
                 FabricItemGroup.builder().title(Component.translatable("item_group." + PlayingMusicMod.MODID + ".genshin_music")).icon(() -> new ItemStack(Items.MUSIC_DISC_13)).build());

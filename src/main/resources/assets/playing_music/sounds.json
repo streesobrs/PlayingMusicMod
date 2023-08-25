@@ -25,5 +25,50 @@
         "stream": true
       }
     ]
-  }
+  },
+  "music_despacito": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "playing_music:music_despacito",
+        "stream": true
+      }
+    ]
+  },
+  "music_beneath_the_light_of_jadeite": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "playing_music:music_beneath_the_light_of_jadeite",
+        "stream": true
+      }
+    ]
+  },
+  "music_fleeting_colors_in_flight": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "playing_music:music_fleeting_colors_in_flight",
+        "stream": true
+      }
+    ]
+  },
+  "music_the_exquisite_night_chimes": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "playing_music:music_the_exquisite_night_chimes",
+        "stream": true
+      }
+    ]
+  },
+  "music_xiong_ying": {
+  "category": "record",
+  "sounds": [
+    {
+      "name": "playing_music:music_xiong_ying",
+      "stream": true
+    }
+  ]
+}
 }
